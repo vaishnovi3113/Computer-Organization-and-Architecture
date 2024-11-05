@@ -1,4 +1,4 @@
-//1.(a) Write a program in assembly language to print the numbers from 0 to 9.
+1.(a) Write a program in assembly language to print the numbers from 0 to 9.
 
 CODE:
 
