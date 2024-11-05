@@ -49,4 +49,17 @@ LOOP PRINT_LOOP
 MOV AH, 4CH
 INT 21H
 
+2.(b) Write an assembly language program to print the characters from A to Z.
 
+CODE:
+
+ORG 100H
+MOV CX, 26
+MOV DL, 'A'
+PRINT_LOOP:
+MOV AH, 2
+INT 21H
+INC DL
+LOOP PRINT_LOOP
+MOV AH, 4CH
+INT 21H
